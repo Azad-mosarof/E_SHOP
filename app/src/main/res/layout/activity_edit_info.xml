@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Profile.Fragments.personalInfo.EditInfo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp">
+
+        <include
+            android:id="@+id/infoEditorToolBar"
+            layout="@layout/store_toolbar"/>
+
+        <ProgressBar
+            android:id="@+id/editorProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/infoEditorToolBar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:textColor="#00BCD4"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8097AABD"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout11"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout11"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:textColor="#00BCD4"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:backgroundTint="#8097AABD"
+                android:textColor="@color/g_blue_gray200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout12"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout12"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#00BCD4"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="#8097AABD"
+                android:textColor="@color/g_blue_gray200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout13"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No."
+                android:textColor="#00BCD4"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:inputType="number"
+                android:backgroundTint="#8097AABD"
+                android:textColor="@color/g_blue_gray200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout14"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout14"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="#00BCD4"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:backgroundTint="#8097AABD"
+                android:textColor="@color/g_blue_gray200" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

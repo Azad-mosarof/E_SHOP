@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E_SHOP</string>
+    <string name="big_text">The Right Place For Shopping Anything At AnyTime</string>
+    <string name="small_text">Now its very easy to find best quality product at best price from your nearby local store. No need to wait few days for your delivery, get instant delivery of your products.</string>
+    <string name="start">START</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="lesso_shopping">Lesso Shopping</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account?</string>
+    <string name="resister">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="best_deals">Today\'s Hot Deals</string>
+    <string name="floting_button">floting_button</string>
+    <string-array name="quantity_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

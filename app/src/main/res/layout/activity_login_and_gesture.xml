@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvAppName"
+            style="@style/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:padding="6dp"
+            android:textColor="@color/text_color"
+            android:text="@string/lesso_shopping"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRightAddress"
+            style="@style/h4"
+            android:layout_width="287dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:text="@string/big_text"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="@id/tvAppName"
+            app:layout_constraintStart_toStartOf="@id/tvAppName"
+            app:layout_constraintTop_toBottomOf="@id/tvAppName" />
+
+        <TextView
+            android:id="@+id/smallText"
+            style="@style/h2"
+            android:layout_width="289dp"
+            android:layout_height="151dp"
+            android:textColor="@color/g_blue_gray200"
+            android:text="@string/small_text"
+            app:layout_constraintStart_toStartOf="@id/tvRightAddress"
+            app:layout_constraintEnd_toEndOf="@id/tvRightAddress"
+            app:layout_constraintTop_toBottomOf="@id/tvRightAddress"
+            android:textAlignment="center" />
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/login_bt"
+            style="@style/whiteButtonStyle"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#80000000"
+            app:neumorph_backgroundColor="#26F7BDFD"
+            android:background="@drawable/border2"
+            app:layout_constraintEnd_toEndOf="@id/smallText"
+            app:layout_constraintStart_toStartOf="@id/smallText"
+            app:layout_constraintTop_toBottomOf="@id/smallText" />
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/register_bt"
+            style="@style/blueButtonStyle"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            app:neumorph_backgroundColor="#266007FF"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/register"
+            android:textColor="#80000000"
+            android:background="@drawable/border3"
+            app:layout_constraintEnd_toEndOf="@id/login_bt"
+            app:layout_constraintStart_toStartOf="@id/login_bt"
+            app:layout_constraintTop_toBottomOf="@id/login_bt" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

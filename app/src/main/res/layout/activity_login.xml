@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".LoginActivity">
+
+
+    <include layout="@layout/toolbar"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvAppName"
+            style="@style/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:padding="6dp"
+            android:textColor="@color/text_color"
+            android:text="@string/lesso_shopping"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            style="@style/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Let's Login"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="@color/text_color"
+            app:layout_constraintEnd_toEndOf="@id/tvAppName"
+            app:layout_constraintStart_toStartOf="@id/tvAppName"
+            app:layout_constraintTop_toBottomOf="@id/tvAppName" />
+
+        <TextView
+            android:id="@+id/smallText"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_an_account_register"
+            android:textAlignment="center"
+            android:textColor="@color/g_blue_gray200"
+            app:layout_constraintEnd_toEndOf="@id/tvLogin"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/tvLogin"
+            app:layout_constraintTop_toBottomOf="@id/tvLogin" />
+
+
+        <TextView
+            android:id="@+id/register"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/resister"
+            android:textAlignment="center"
+            android:textColor="#0A37E8"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/smallText"
+            app:layout_constraintStart_toEndOf="@+id/smallText"
+            app:layout_constraintTop_toBottomOf="@+id/tvLogin" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/email_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="-10dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toBottomOf="@id/smallText"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="20sp"
+                android:textColor="#57cbcc"
+                android:textColorHint="#57cbcc" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/password_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toBottomOf="@id/email_card"
+            android:layout_marginEnd="-10dp"
+            app:neumorph_shapeType="basin"
+            android:layout_marginStart="-10dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/border"
+                android:textColor="#57cbcc"
+                android:textColorHint="#57cbcc"
+                android:paddingStart="20dp"/>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <TextView
+            android:id="@+id/tv_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Forgot Password?"
+            android:textColor="#C3494849"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toBottomOf="@id/password_card" />
+
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/login_bt"
+            style="@style/blueButtonStyle"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/border2"
+            android:text="@string/login"
+            android:textColor="#80000000"
+            android:gravity="center"
+            app:neumorph_backgroundColor="#26F7BDFD"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toBottomOf="@id/tv_forgot" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/facebookLogin_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-20dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
+            app:layout_constraintTop_toBottomOf="@id/login_bt">
+
+            <ImageView
+                android:id="@+id/facebookLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/facebook_login" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+
+        <TextView
+            android:id="@+id/tv_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:textColor="#95000000"
+            app:layout_constraintStart_toStartOf="@id/facebookLogin_card"
+            app:layout_constraintEnd_toEndOf="@id/facebookLogin_card"
+            app:layout_constraintTop_toTopOf="@id/facebookLogin_card"
+            app:layout_constraintBottom_toBottomOf="@id/facebookLogin_card"/>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/googleLogin_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="-20dp"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintTop_toBottomOf="@id/login_bt">
+
+            <ImageView
+                android:id="@+id/googleLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/google_login" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+
+        <TextView
+            android:id="@+id/tv_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            android:textColor="#95000000"
+            app:layout_constraintStart_toStartOf="@id/googleLogin_card"
+            app:layout_constraintEnd_toEndOf="@id/googleLogin_card"
+            app:layout_constraintTop_toTopOf="@id/googleLogin_card"
+            app:layout_constraintBottom_toBottomOf="@id/googleLogin_card"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLoginLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.09" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLoginRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.91" />
+
+        <ProgressBar
+            android:id="@+id/loginProgressBar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/login_bt"
+            app:layout_constraintEnd_toEndOf="@+id/login_bt"
+            app:layout_constraintStart_toStartOf="@+id/login_bt"
+            app:layout_constraintTop_toTopOf="@+id/login_bt" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

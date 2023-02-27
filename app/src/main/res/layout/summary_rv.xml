@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1A000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteY="682dp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1A000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="682dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/smart_watch" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/border5"
+                android:padding="2dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/black"
+                    android:padding="2dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/productTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:singleLine="true"
+            android:text="VPrime Edge To Edge Screen Guard"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout7"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout7" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Pack of 2"
+            android:textColor="#80000000"
+            app:layout_constraintStart_toStartOf="@+id/productTitle"
+            app:layout_constraintTop_toBottomOf="@+id/productTitle" />
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_baseline_star_24"
+            app:layout_constraintStart_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24"
+            app:layout_constraintBottom_toBottomOf="@+id/star1"
+            app:layout_constraintStart_toEndOf="@+id/star1"
+            app:layout_constraintTop_toTopOf="@+id/star1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/not_star"
+            app:layout_constraintBottom_toBottomOf="@+id/star2"
+            app:layout_constraintStart_toEndOf="@+id/star2"
+            app:layout_constraintTop_toTopOf="@+id/star2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="(928)"
+            android:textSize="12sp"
+            android:textColor="#99000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/productOldPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/diagonal_cross_bg"
+            android:text="₹1293"
+            android:textColor="#80000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/star1"
+            app:layout_constraintTop_toBottomOf="@+id/star1" />
+
+        <TextView
+            android:id="@+id/productNewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="₹103"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/productOldPrice"
+            app:layout_constraintStart_toEndOf="@+id/productOldPrice"
+            app:layout_constraintTop_toTopOf="@+id/productOldPrice" />
+
+        <TextView
+            android:id="@+id/offerPersentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="92% off"
+            android:textColor="#3DAA03"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/productNewPrice"
+            app:layout_constraintStart_toEndOf="@+id/productNewPrice"
+            app:layout_constraintTop_toTopOf="@+id/productNewPrice" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Delivery by Fri Dec 30 |"
+            android:textColor="#CC000000"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout7"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="₹16"
+            android:textColor="#CC000000"
+            app:layout_constraintBottom_toBottomOf="@+id/textView22"
+            app:layout_constraintStart_toEndOf="@+id/textView22"
+            app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+        <View
+            android:id="@+id/viewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#0D000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

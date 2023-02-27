@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".fragments.IntroductionFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_leftTexture"
+        app:layout_constraintDimensionRatio="1:3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texture_left" />
+
+    <ImageView
+        android:id="@+id/ellips"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/guidelineElipsLeft"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineElipsBottom"
+        app:layout_constraintEnd_toEndOf="@id/guidelineElipsRight"
+        app:layout_constraintTop_toTopOf="@id/guidelineElipsTop"
+        app:layout_constraintDimensionRatio="1:1"
+        app:srcCompat="@drawable/ellips" />
+
+    <TextView
+        android:id="@+id/tvRightAddress"
+        style="@style/h4"
+        android:layout_width="287dp"
+        android:layout_height="207dp"
+        android:gravity="center"
+        android:text="@string/big_text"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@id/ellips"
+        app:layout_constraintEnd_toEndOf="@id/ellips"
+        app:layout_constraintStart_toStartOf="@id/ellips"
+        app:layout_constraintTop_toTopOf="@id/guideline_leftTexture"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/smallText"
+        style="@style/h2"
+        android:layout_width="289dp"
+        android:layout_height="151dp"
+        android:text="@string/small_text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/tvRightAddress"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@id/tvRightAddress"
+        app:layout_constraintTop_toBottomOf="@id/tvRightAddress" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/guidelineElipsRight"
+        app:srcCompat="@drawable/texture_right" />
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/blueButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/smallText" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_leftTexture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineElipsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineElipsRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineElipsTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.19" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineElipsBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+</androidx.constraintlayout.widget.ConstraintLayout>

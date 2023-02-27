@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/bodyLy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/notification_2"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:id="@+id/notificationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_10dp"
+                android:text="Notification Title"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:text="No min. order value avail free shipping on order value min 600! shop now"
+            android:textColor="@color/g_blue_gray200"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/arrivalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="8dp"
+            android:text="1 day ago"
+            android:textColor="#9997AABD"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageView19"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/bodyLy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bodyLy">
+
+        <ImageView
+            android:id="@+id/notificationImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_storefront_24" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/g_blue_gray200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodyLy" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

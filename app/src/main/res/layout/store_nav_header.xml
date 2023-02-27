@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView10"
+        android:layout_width="99dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/digital_store"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/storeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="SID: 123456"
+        android:textColor="@color/g_blue_gray200"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/ownerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:padding="5dp"
+        android:text="Owner: Azad Mosarof"
+        android:textColor="@color/g_blue_gray200"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/storeId"
+        app:layout_constraintStart_toStartOf="@+id/storeId"
+        app:layout_constraintTop_toBottomOf="@+id/storeId" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border5"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ownerName">
+
+        <LinearLayout
+            android:id="@+id/add_Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/upload"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Add Product"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="65dp"
+            android:background="@color/g_blue_gray200" />
+
+        <LinearLayout
+            android:id="@+id/orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/order_history"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="New Orders"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/newOrders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5+"
+                android:textSize="17sp"
+                android:textColor="#80FF0000"
+                android:backgroundTint="#1AFF0000"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/border5"
+                android:padding="2dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="65dp"
+            android:background="@color/g_blue_gray200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/history"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Orders History"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="65dp"
+            android:background="@color/g_blue_gray200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/analytics"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Sell Status"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="65dp"
+            android:background="@color/g_blue_gray200" />
+
+        <LinearLayout
+            android:id="@+id/manage_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/market"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Manage Store"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="65dp"
+            android:background="@color/g_blue_gray200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/notification"
+                app:tint="@color/g_blue_gray200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Notification"
+                android:textColor="@color/g_blue_gray200"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="65dp"
+            android:background="@color/g_blue_gray200" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

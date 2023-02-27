@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tvRightAddress">115</dimen>
+    <dimen name="buttonCorners">5dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="_80dp">80dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profile.Fragments.Feedback">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_background"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            style="@style/whiteButtonStyle"
+            android:text="Rate Us"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="17sp"
+            app:neumorph_backgroundColor="#26F7BDFD"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/g_dark_blue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/g_blue_gray200"
+            android:text="Please give us rating on Play Store and also please give us your valuable feedback so that we can improve our service to make user's shopping experience better."/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="5dp">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4D97AABD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/starLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view1">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/ic_baseline_star_24" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/not_star" />
+
+        <TextView
+            android:id="@+id/reviewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Review Title"
+            android:textSize="18sp"
+            android:textColor="#BF000000"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reviewContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Review Content"
+        android:textColor="@color/g_blue_gray200"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/starLayout"
+        app:layout_constraintTop_toBottomOf="@+id/starLayout" />
+
+    <LinearLayout
+        android:id="@+id/nameTown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/recyclerView2"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView2">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxWidth="120dp"
+            android:singleLine="true"
+            android:text="Customer Name, "
+            android:textColor="#80000000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:singleLine="true"
+        android:text="district or town"
+        android:textColor="#80000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nameTown"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintStart_toEndOf="@+id/nameTown"
+        app:layout_constraintTop_toTopOf="@+id/nameTown" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/like"
+        app:layout_constraintBottom_toBottomOf="@+id/nameTown"
+        app:layout_constraintEnd_toStartOf="@+id/likes"
+        app:layout_constraintTop_toTopOf="@+id/nameTown"
+        app:tint="@color/g_blue_gray200" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/dislike"
+        app:layout_constraintBottom_toBottomOf="@+id/likes"
+        app:layout_constraintEnd_toStartOf="@+id/disLikes"
+        app:layout_constraintTop_toTopOf="@+id/likes"
+        app:tint="@color/g_blue_gray200" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="20"
+        android:textSize="13sp"
+        android:textColor="@color/g_blue_gray200"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/disLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="3"
+        android:textSize="13sp"
+        android:textColor="@color/g_blue_gray200"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/reviewContent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewContent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_verified_24"
+        app:layout_constraintStart_toStartOf="@+id/nameTown"
+        app:layout_constraintTop_toBottomOf="@+id/nameTown"
+        app:tint="@color/g_blue_gray200" />
+
+    <TextView
+        android:id="@+id/reviewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="Verified Purchase . 3 months ago"
+        android:textColor="#66000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4D97AABD"
+        android:layout_marginTop="@dimen/_15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:elevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/wholeView"
+        android:layout_width="match_parent"
+        android:background="#33D8EBFA"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_best_deal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:background="#DD6C2E"
+            android:padding="1dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="HOT DEALS"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_deal_product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:singleLine="true"
+            android:text="Scotch Premium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/btn_see_product"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/img_best_deal"
+            app:layout_constraintTop_toTopOf="@id/img_best_deal" />
+
+        <TextView
+            android:id="@+id/tv_old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diagonal_cross_bg"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="$2000"
+            android:textStyle="bold"
+            android:textColor="#B3000000"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_new_price"
+            app:layout_constraintTop_toBottomOf="@+id/tv_new_price" />
+
+        <TextView
+            android:id="@+id/tv_new_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="$1600"
+            android:textColor="#d4b100"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_deal_product_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_deal_product_name" />
+
+        <TextView
+            android:id="@+id/offerPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display"
+            android:paddingStart="2dp"
+            android:paddingEnd="1dp"
+            android:text="(10% off)"
+            android:textColor="#BF000000"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="@+id/tv_old_price"
+            app:layout_constraintTop_toBottomOf="@+id/tv_old_price" />
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/btn_see_product"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/blue_background"
+            android:fontFamily="@font/poppins_light"
+            android:text="See"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</soup.neumorphism.NeumorphCardView>

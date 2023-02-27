@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/blue_background.xml" value="0.142" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/bottom_nav_item_background.xml" value="0.121" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/bottom_navigation_background.xml" value="0.212" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/ellips.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/facebook_login.xml" value="0.2545" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/google_login.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/ic_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/ic_scan.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/icon_background.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/search_box_background.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable-v24/white_background.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/arrow_back.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/backgroud_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/background_templet.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/bgr2.xml" value="0.2085" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border.xml" value="0.218" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border2.xml" value="0.1445" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border3.xml" value="0.2085" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border4.xml" value="0.2585" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border5.xml" value="0.2545" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border6.xml" value="0.2585" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border7.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border8.xml" value="0.253" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/border_round.xml" value="0.2125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/circular_shape.xml" value="0.202" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/diagonal_cross_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/divider.xml" value="0.2585" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/ic_add_24.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/ic_baseline_storefront_24.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/language.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/notification.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/outline_style.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/payment.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/privacy.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/radiousless_background.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/round_border.xml" value="0.182" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/roundborder.xml" value="0.2585" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/shadow_rect.xml" value="0.2555" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/slide_in_bottom.xml" value="0.2585" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/slide_in_left.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/slide_in_right.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/slide_out_bottom.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/slide_out_left.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/slide_out_right.xml" value="0.2595" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/spiner_icon.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/store_items.xml" value="0.2585" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/texture_left.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/texture_right.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/drawable/underline.xml" value="0.202" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/action_bar_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/actionbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_account_optional_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_create_store.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_edit_info.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_image_review.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_introduction_fragment.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_login_and_gesture.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_login_fragment.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_order_summary.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_orders.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_payment.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_personal_info.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_product_adder.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_product_description.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_product_description2.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_product_editor.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_puser_profile.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_register_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_review_taker.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_search.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_settings.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_shopping.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_shopping_cart.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_shopping_home.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_store.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_store_dp.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/activity_user_profile.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/base_category_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/best_deals_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/cart_rv.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/custom_spiner_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/custom_spiner_selector.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/editor_viewer.xml" value="0.253125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/favourite_product_view.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_cart.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_deliverd_orders.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_details.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_favourite_products.xml" value="0.16" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_feedback.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_help_center.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_home.xml" value="0.29683698296836986" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_new__orders.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_notification.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_orders.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_package.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_product_description.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_reviews.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_reviews2.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_search.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_tab_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/fragment_user_profile.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/home.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/main_category_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/my_drop_down_items.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/new_orders.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/new_orders_model_layout.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/notification_model_layout.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/notification_rv.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/product_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/product_viewer.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/push_notification_layout.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/reset_password.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/review_images.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/review_layout_model.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/review_rv.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/shopping_home.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/special_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/store_items.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/store_nav_header.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/store_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/summary_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/layout/user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/menu/store_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/menu/toolbar_menu.xml" value="0.16" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/E_SHOP2/app/src/main/res/xml/paths.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

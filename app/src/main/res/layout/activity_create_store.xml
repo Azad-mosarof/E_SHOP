@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/outline_style"
+    tools:context=".Digital_Store.activities.Create_Store">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/priceDetailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/background_templet"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/make_store"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Create Your \nDigital Store \nBy Just \nOne Click"
+            android:textColor="#D8FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.372" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/storeName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/backgroud_gradient"
+        android:hint="Enter Your Store Name"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#4A000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceDetailsLayout" />
+
+    <EditText
+        android:id="@+id/ownerName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backgroud_gradient"
+        android:hint="Store Owner Name"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:textColorHint="#4A000000"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeName" />
+
+    <EditText
+        android:id="@+id/storeCategory"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/backgroud_gradient"
+        android:hint="Store Category"
+        android:textColorHint="#4A000000"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ownerName" />
+
+    <EditText
+        android:id="@+id/storeOfficialMail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/backgroud_gradient"
+        android:hint="Email For Official Purpose"
+        android:textColorHint="#4A000000"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeCategory" />
+
+    <EditText
+        android:id="@+id/storeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/backgroud_gradient"
+        android:hint="Store Location"
+        android:textColorHint="#4A000000"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeOfficialMail" />
+
+    <EditText
+        android:id="@+id/customerService"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/backgroud_gradient"
+        android:hint="Customer Service Ph.No"
+        android:inputType="phone"
+        android:paddingStart="15dp"
+        android:textColorHint="#4A000000"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeLocation" />
+
+
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        android:id="@+id/createStore"
+        style="@style/blueButtonStyle"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border3"
+        android:gravity="center"
+        android:text="CREATE STORE"
+        app:layout_constraintEnd_toEndOf="@+id/customerService"
+        app:layout_constraintStart_toStartOf="@+id/customerService"
+        app:layout_constraintTop_toBottomOf="@+id/customerService" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
