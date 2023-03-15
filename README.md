@@ -25,4 +25,6 @@ To use the app, follow these steps:
 - If you are a local seller, register a new seller account and create your own digital store.
 - Add your products to your store and manage
 
-
+## License
+Copyright © 2023 [Azad Mosarof](https://github.com/Azad-mosarof).<br />
+This project is [MIT](https://github.com/Azad-mosarof/E_SHOP/blob/5729e60c33c367888dda1e84d08dc9efa89932c7/LICENSE.md) licensed.
