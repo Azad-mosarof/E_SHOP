@@ -16,7 +16,7 @@
 - Order management for sellers
 
 ## Usage
-This is an startup project and development is still going on. Code for this app is not available publically. But you can use the app by dowmloading the apk file of this app.
+This is an startup project and development is still going on. Code for this app is not available publically. But you can use the app by downloading the apk file of this app.
 
 To use the app, follow these steps:
 
