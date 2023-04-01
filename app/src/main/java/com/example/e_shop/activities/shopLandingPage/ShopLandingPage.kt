@@ -13,5 +13,6 @@ class ShopLandingPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityShopLandingPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.hide()
     }
 }

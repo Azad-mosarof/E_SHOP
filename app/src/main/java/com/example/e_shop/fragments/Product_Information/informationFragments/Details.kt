@@ -28,6 +28,7 @@ import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import com.example.e_shop.R
 import com.example.e_shop.activities.OrderActivities.OrderSummary
+import com.example.e_shop.activities.shopLandingPage.ShopLandingPage
 import com.example.e_shop.adapters.ProductsViewer
 import com.example.e_shop.data.CartProduct
 import com.example.e_shop.data.Product
@@ -180,6 +181,11 @@ class Details : Fragment(R.layout.fragment_details) {
                 .addOnFailureListener{
                     Toast.makeText(context, it.message.toString(), Toast.LENGTH_SHORT).show()
                 }
+        }
+
+        binding.ownerStore.setOnClickListener{
+            val intent = Intent(requireContext(), ShopLandingPage::class.java)
+            startActivity(intent)
         }
 
     }
