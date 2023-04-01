@@ -154,7 +154,32 @@ class Details : Fragment(R.layout.fragment_details) {
                 binding.imgFavourite.setImageResource(R.drawable.heart)
                 binding.imgFavourite.setColorFilter(Color.RED)
                 flag = true
+
+                //add this favourite product to the firestore
+                val favouriteProduct = CartProduct(product!!.id, product!!.name,product!!.price, product!!.offerPercentage,
+                    product!!.images[0], 0, 0f,store!!.s_ID, store!!.s_o_uid)
+                fireStore.collection(constant.UserCollection).document(auth.currentUser?.uid!!)
+                    .collection(constant.FavouriteProductsCollections).document(product!!.id).set(favouriteProduct)
+                    .addOnSuccessListener {
+                        Toast.makeText(context, "Product added to your favourite", Toast.LENGTH_SHORT).show()
+                    }
+                    .addOnFailureListener{
+                        Toast.makeText(context, it.message.toString(), Toast.LENGTH_SHORT).show()
+                    }
             }
+        }
+
+        binding.addToCart.setOnClickListener{
+            val cartProduct = CartProduct(product!!.id, product!!.name,product!!.price, product!!.offerPercentage,
+                product!!.images[0], 0, 0f,store!!.s_ID, store!!.s_o_uid)
+            fireStore.collection(constant.UserCollection).document(auth.currentUser?.uid!!)
+                .collection(constant.Cart).document(product!!.id).set(cartProduct)
+                .addOnSuccessListener {
+                    Toast.makeText(context, "Product added to your cart", Toast.LENGTH_SHORT).show()
+                }
+                .addOnFailureListener{
+                    Toast.makeText(context, it.message.toString(), Toast.LENGTH_SHORT).show()
+                }
         }
 
     }

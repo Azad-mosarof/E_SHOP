@@ -23,6 +23,9 @@
         android:theme="@style/Theme.E_SHOP"
         tools:targetApi="31">
         <activity
+            android:name=".activities.shopLandingPage.ShopLandingPage"
+            android:exported="false" />
+        <activity
             android:name=".Digital_Store.activities.Orders_Activity"
             android:exported="false" />
         <!--

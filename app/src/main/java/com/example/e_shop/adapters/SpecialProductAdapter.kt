@@ -11,8 +11,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.e_shop.R
+import com.example.e_shop.data.CartProduct
 import com.example.e_shop.data.Product
 import com.example.e_shop.data.productId
+import com.example.e_shop.data.store_info
 import com.example.e_shop.databinding.SpecialRvItemBinding
 import com.example.e_shop.fragments.Product_Information.activity.Product_Description
 import com.example.e_shop.util.auth
@@ -36,7 +38,24 @@ class SpecialProductAdapter(private val context: Context): RecyclerView.Adapter<
                             it
                         ).toString()
                     })
-                    binding.offerPercentage.text = "(${product.offerPercentage}% off)"
+                    offerPercentage.text = "(${product.offerPercentage}% off)"
+
+                    btnAddToCart.setOnClickListener{
+                        fireStore.collection(constant.StoresCollection).document(product.storeId).get()
+                            .addOnSuccessListener {
+                                val store = it.toObject(store_info::class.java)!!
+                                val cartProduct = CartProduct(product.id, product.name,product.price, product.offerPercentage,
+                                    product.images[0], 0, 0f,product.storeId, store.s_o_uid)
+                                fireStore.collection(constant.UserCollection).document(auth.currentUser?.uid!!)
+                                    .collection(constant.Cart).document(product.id).set(cartProduct)
+                                    .addOnSuccessListener {
+                                        Toast.makeText(context, "Product added to your cart", Toast.LENGTH_SHORT).show()
+                                    }
+                                    .addOnFailureListener{
+                                        Toast.makeText(context, it.message.toString(), Toast.LENGTH_SHORT).show()
+                                    }
+                            }
+                    }
                 }
                 binding.imgFavouriteIcon.setOnClickListener{
                     state = if(!state){

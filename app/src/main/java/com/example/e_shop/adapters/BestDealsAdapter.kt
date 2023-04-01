@@ -30,7 +30,7 @@ class BestDealsAdapter(val context: Context): RecyclerView.Adapter<BestDealsAdap
                     })
                     binding.offerPercentage.text = "(${product.offerPercentage}% off)"
 
-                    binding.wholeView.setOnClickListener{
+                    btnSeeProduct.setOnClickListener{
                         val intent = Intent(context, Product_Description::class.java)
                         intent.putExtra("storeId",product.storeId)
                         intent.putExtra("productId",product.id)

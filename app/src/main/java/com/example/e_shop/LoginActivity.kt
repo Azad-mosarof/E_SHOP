@@ -2,14 +2,12 @@ package com.example.e_shop
 
 import android.content.Intent
 import android.content.SharedPreferences
-import android.media.MediaCodec.MetricsConstants.MODE
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.e_shop.activities.LoginAndGesture
 import com.example.e_shop.activities.ShoppingActivity
 import com.example.e_shop.databinding.ActivityLoginBinding
 import com.example.e_shop.fragments.RegisterFragment

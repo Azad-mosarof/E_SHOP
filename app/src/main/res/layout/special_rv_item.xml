@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="280dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="0dp"
@@ -124,8 +124,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvSpecialProductPrice1"
             android:layout_marginTop="10dp"
-            android:textAllCaps="false"
-            />
+            android:textAllCaps="false"/>
 
         <LinearLayout
             android:id="@+id/imgFavourite"
