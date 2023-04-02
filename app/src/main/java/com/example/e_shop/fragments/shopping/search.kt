@@ -69,6 +69,7 @@ class search: Fragment(R.layout.activity_search) {
                 }
                 val searchAdapter = SearchListAdapter(requireContext(), searchItems)
                 searchAdapter.filter.filter(query)
+                //empty the adapter
                 binding.searchResults.adapter = searchAdapter
             }
             .addOnFailureListener { exception ->
@@ -83,6 +84,7 @@ class search: Fragment(R.layout.activity_search) {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 val updatedQuery = query!!.split(" ").joinToString(" ") { it.capitalize() }
                 search(updatedQuery)
+                binding.searchResults.visibility = View.VISIBLE
                 if(query =="")
                     binding.searchResults.visibility = View.GONE
 
