@@ -12,6 +12,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="best_deals">Today\'s Hot Deals</string>
     <string name="floting_button">floting_button</string>
+    <string name="storeimage">storeImage</string>
     <string-array name="quantity_array">
         <item>1</item>
         <item>2</item>

@@ -185,6 +185,8 @@ class Details : Fragment(R.layout.fragment_details) {
 
         binding.ownerStore.setOnClickListener{
             val intent = Intent(requireContext(), ShopLandingPage::class.java)
+            intent.putExtra("storeId", product!!.storeId)
+            intent.putExtra("storeName", store!!.s_name)
             startActivity(intent)
         }
 

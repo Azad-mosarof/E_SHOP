@@ -1,13 +1,21 @@
 package com.example.e_shop.util
 
 import android.annotation.SuppressLint
+import android.content.Context
+import android.graphics.Color
 import android.view.View
+import android.widget.ImageView
 import android.widget.ProgressBar
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
+import com.example.e_shop.R
 import com.example.e_shop.firebase.FirebaseService
 import com.example.e_shop.viewModels.FavouriteProductsViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
+import dagger.hilt.android.qualifiers.ActivityContext
 
 class Utility{
     fun newPrice(oldPrice:Float,offer:Float): Int {
@@ -20,6 +28,27 @@ class Utility{
 
     fun hideLoading(progressBar: ProgressBar){
         progressBar.visibility = View.GONE
+    }
+
+    fun toolBarSetup(title:String,context: AppCompatActivity, bgColor: String = "#FFFFFF"){
+        val backIcon: ImageView = context.findViewById(R.id.toolBarBackIcon)
+        val toolTitle: TextView = context.findViewById(R.id.tootlBarTitle)
+        val toolbar: ConstraintLayout = context.findViewById(R.id.toolBar)
+
+        toolTitle.text = title
+
+        toolbar.setBackgroundColor(Color.parseColor(bgColor))
+        toolTitle.setTextColor(Color.parseColor("#FFFFFF"))
+        backIcon.setColorFilter(Color.parseColor("#FFFFFF"))
+
+        //give padding in the toolbar
+        toolbar.setPadding(0,10, 0, 10)
+
+
+        backIcon.setOnClickListener{
+            context.finish()
+            context.overridePendingTransition(R.drawable.slide_in_left, R.drawable.slide_out_right)
+        }
     }
 }
 
